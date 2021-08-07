@@ -1,0 +1,91 @@
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+main{
+        padding-left: 40px;
+}
+
+body{
+        background-color: rgb(207, 185, 185);
+        
+}
+
+header{
+        position: fixed;
+        background-color: cornflowerblue;
+        display: block;
+        width: 100%;
+}
+
+nav ul li{
+        display: inline-block
+        }
+
+nav{
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+}
+
+h1 {
+        color: rgb(178, 207, 195);
+        font-family: sans-serif;
+        display: inline-block;
+}
+
+h3{
+        font-family: sans-serif; font-size: 18px; color: rgb(51, 50, 50);
+}
+ol li{
+        background-color: coral;
+}
+
+.flex{
+        display: flex; 
+        flex-direction: row;
+        align-content: space-between;
+        padding-top: 70px;        
+}
+.nota1{ 
+        width: 50%;
+        display: inline-block;
+
+}
+
+.nota1__colornota{       
+        color:rgb(51, 50, 50);
+        font-family: sans-serif;
+        font-size: 14px;
+        width: 50%;
+
+   }
+
+.nota1__imagenrigh{
+        width: 50%;
+ }
+
+
+
+ .grid{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         grid-template-rows: 10% 10%;
+         padding: 30px
+        }
+
+
+ .submenu{
+         display: none;
+         position: absolute;
+         background: cornflowerblue ;
+ }
+
+ ul li:hover .submenu{
+         display: block;
+ }
+
+ .item{
+         display: block;
+ }
